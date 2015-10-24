@@ -1,0 +1,18 @@
+package main
+
+import "fmt" 
+
+func even_or_odd (num int) int { 
+    half := num / 2
+    if (num % 2) == 1 {
+        fmt.Println(0, true) 
+    } else { 
+        fmt.Println(half, false) 
+   } 
+   return 
+   } 
+
+func main() {
+    even_or_odd(16) 
+    even_or_odd(287) 
+    } 
